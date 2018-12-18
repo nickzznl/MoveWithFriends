@@ -1,8 +1,9 @@
 CREATE VIEW koppel AS
 
 SELECT * from customer
-JOIN interest ON interest.interest
-JOIN timeslot ON timeslot.timeslot
+JOIN interest ON customer.CustomerID = interest.CustomerIDInterest
+JOIN timeslot ON customer.CustomerID = timeslot.CustomerIDtimeslot
+
 
 
 
