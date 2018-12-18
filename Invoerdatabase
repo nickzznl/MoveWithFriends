@@ -28,16 +28,16 @@ VALUES (5, 'fietsen');
 
 --Zo voeg je iets toe aan timeslot tabel
 
-INSERT INTO `interest`
+INSERT INTO `timeslot`
 VALUES (2, '12');
 
-INSERT INTO `interest`
+INSERT INTO `timeslot`
 VALUES (3, '13');
 
-INSERT INTO `interest`
+INSERT INTO `timeslot`
 VALUES (4, '13');
 
-INSERT INTO `interest`
+INSERT INTO `timeslot`
 VALUES (5, '13');
 
 
