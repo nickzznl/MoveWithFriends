@@ -1,6 +1,7 @@
 --Zo voeg je iets toe aan customer tabel
 
-INSERT INTO `customer`
+INSERT INTO `customer` --(FirstName,LastName,SEX,BirthDate,PreferredSex) Voeg dit toe indien er geen ID nodig is
+VALUES ('Frans', 'Jadus', 'man', '1993-07-09', 'man');
 VALUES (2, 'Nick', 'Sluiters', 'man', '1993-07-19', 'vrouw');
 
 INSERT INTO `customer`
